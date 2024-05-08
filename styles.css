@@ -151,14 +151,11 @@
 
 .section-two-list {
     list-style: none;
-    width: 1128px;
     display: flex;
     gap: 24px;
 }
 
 .section-two-css {
-    width: 1128px;
-    height: 104px;
     padding: 120px 0;
 
 }
@@ -183,8 +180,6 @@
 
 .section-third-css {
     background-color: #f4f4fd;
-    width: 1440px;
-    height: 732px;
     padding: 120px 0;
 
 }
@@ -254,8 +249,6 @@
 }
 
 .section-fourth-css {
-    width: 1128px;
-    height: 1000px;
     padding-top: 120px; padding-bottom: 120px;
 }
 
