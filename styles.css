@@ -153,6 +153,7 @@
     list-style: none;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .section-two-css {
@@ -164,9 +165,6 @@
     visibility: hidden;
 }
 
-.list-item-section-two:first-child {
-    width: calc((100% - 72px) / 4);
-}
 
 
 .list-second-item {
