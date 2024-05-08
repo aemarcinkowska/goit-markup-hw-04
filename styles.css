@@ -164,7 +164,7 @@
     visibility: hidden;
 }
 
-.list-item-section-two {
+.list-item-section-two:first-child {
     width: calc((100% - 72px) / 4);
 }
 
