@@ -150,7 +150,7 @@
 }
 
 .section-two-list {
-    list-style: none;
+ 
     display: flex;
     gap: 24px;
     
@@ -161,21 +161,10 @@
 
 }
 
-.header-two {
-    visibility: hidden;
-}
-
-.list-item-section-two:first-child {
+.list-item-section-two-first {
     width: calc((100% - 72px) / 4);
 }
 
-.list-item-section-two:nth-child(odd) {
-    width: calc((100% - 72px) / 4);
-}
-
-.list-item-section-two:nth-child(even) {
-    width: calc((100% - 72px) / 4);
-}
 
 .list-second-item {
     font-size: 16px;
@@ -293,7 +282,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;
+    margin-bottom: 8px
     
 }
 
