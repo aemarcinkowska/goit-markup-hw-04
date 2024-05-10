@@ -173,6 +173,9 @@ img {
    /* width: calc((100% - 72px) / 4);*/
  }
 
+.yyyyy {
+    width: calc((100% - 72px) / 4);
+}
 
 .header-two {
     visibility: hidden;
@@ -192,7 +195,7 @@ img {
     list-style-type: none;
     display: flex;
     gap: 24px;
-    width: calc((100% - 72px) / 4);
+    /*width: calc((100% - 72px) / 4);*/
 }
 
 .list-second-item {
@@ -337,6 +340,7 @@ img {
     width: 1440px;
     height: 312px;
     padding: 100px 0;
+    display: inline-block;
 }
 
 .p-footer {
@@ -349,7 +353,6 @@ img {
 .web-logo-footer {
     color: #4d5ae5;
     margin-right: 76px;
-    display: inline-block;
     margin-bottom: 16px;
 
 }
