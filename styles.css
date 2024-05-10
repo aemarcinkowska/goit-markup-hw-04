@@ -23,6 +23,7 @@ img {
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .logo {
@@ -189,6 +190,8 @@ img {
 
 .section-two-list {
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
 .list-second-item {
@@ -196,6 +199,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.list-second-item:nth-child(1) {
     width: calc((100% - 72px) / 4);
 }
 
@@ -338,6 +344,15 @@ img {
     line-height: 1.5;
     max-width: 264px;
 }
+
+.web-logo-footer {
+    color: #4d5ae5;
+    margin-right: 76px;
+    display: inline-block;
+    margin-bottom: 16px;
+
+}
+
 .studio-logo-footer {
     color: #f4f4fd;
 }
