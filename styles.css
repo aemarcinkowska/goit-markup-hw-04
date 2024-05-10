@@ -179,7 +179,7 @@ img {
 
 
 .visually-hidden {
-    visibility: hidden;
+   visibility: hidden;
 }
 
 /*.flex-section-two {
@@ -238,6 +238,10 @@ img {
     gap: 24px;
 }
 
+.padding {
+    padding: 32px 16px;
+}
+
 .head-section-third {
     font-size: 36px;
     line-height: 1.11;
@@ -285,6 +289,10 @@ img {
 
 
 /************* SEKCJA NR 4 ******************/
+
+.span {
+    margin-bottom: 8px;
+}
 
 .head-fourth {
     font-size: 36px;
