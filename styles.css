@@ -4,6 +4,10 @@
     padding: 0;
     }
 
+img {
+    display: block;
+}
+    
 
 .body {
     font-family: "Roboto", sans-serif;
@@ -18,9 +22,6 @@
     padding: 0 15px;
    }
 
-img {
-    display: block;
-}
 
 /*************** NAGŁÓWEK ******************/
 
@@ -28,8 +29,11 @@ img {
     width: 1440px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
-    display: flex;
     flex-wrap: wrap;
+}
+
+.flex-header {
+    display: flex;
 }
 
 .logo {
@@ -174,13 +178,17 @@ img {
 
 }
 
+.flex-section-two {
+    width: calc((100% - 72px) / 4);
+}
+
 .section-two-css {
     padding: 120px 0;
    /* width: calc((100% - 72px) / 4);*/
  }
 
 
-/* .list-item-section-two {
+/*.list-item-section-two {
  
     display: flex;
     gap: 24px;
@@ -194,7 +202,6 @@ img {
     list-style-type: none;
     display: flex;
     gap: 24px;
-    /*width: calc((100% - 72px) / 4);*/
 }
 
 .list-second-item {
@@ -209,6 +216,9 @@ img {
 }*/
 
 /************* SEKCJA NR 2 KONIEC ******************/
+
+
+
 
 /************* SEKCJA NR 3 ******************/
 
