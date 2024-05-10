@@ -37,7 +37,6 @@ img {
     justify-content: space-between;
     display: flex;
     
-                                margin-top: 24px;
                 
 } 
 
@@ -290,7 +289,7 @@ img {
 }
 
 .name-div {
-    padding: 32px 16px;
+    padding: 32px 0px;
 
 
 
@@ -378,7 +377,7 @@ img {
     letter-spacing: 0.03em;
     color: #4d5ae5;
     padding: 100px 0;
-    padding-left: 156px;
+    /* padding-left: 156px; */
 }
 
 .p-footer {
