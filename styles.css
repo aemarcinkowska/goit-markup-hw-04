@@ -177,6 +177,11 @@ img {
 
 }
 
+
+.visually-hidden {
+    overflow: hidden;
+}
+
 /*.flex-section-two {
     flex-basis: calc((100% - 3 * 24px) / 4);
 }*/
