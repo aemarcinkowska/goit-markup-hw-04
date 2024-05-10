@@ -179,7 +179,7 @@ img {
 
 
 .visually-hidden {
-    overflow: hidden;
+    visibility: hidden;
 }
 
 /*.flex-section-two {
