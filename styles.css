@@ -29,7 +29,6 @@ img {
     width: 1440px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
-    flex-wrap: wrap;
 }
 
 .flex-header {
@@ -178,9 +177,9 @@ img {
 
 }
 
-.flex-section-two {
-    width: calc((100% - 72px) / 4);
-}
+/*.flex-section-two {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+}*/
 
 .section-two-css {
     padding: 120px 0;
@@ -188,7 +187,7 @@ img {
  }
 
 
-/*.list-item-section-two {
+.list-item-section-two {
  
     display: flex;
     gap: 24px;
@@ -196,7 +195,7 @@ img {
     list-style-type: none;
     justify-content: space-between;
     
-} */
+} 
 
 .section-two-list {
     list-style-type: none;
@@ -261,7 +260,6 @@ img {
 }
 
 .name-div {
-    padding: 32px 16px;
     width: calc((100% - 72px) / 4);
     padding: 32px 16px;
 
@@ -329,7 +327,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px
+    margin-bottom: 8px;
     
 }
 
@@ -368,6 +366,10 @@ img {
 
 .studio-logo-footer {
     color: #f4f4fd;
+}
+
+.flex-footer {
+    display: inline-block;
 }
 
 /*************** STOPKA KONIEC *****************/
