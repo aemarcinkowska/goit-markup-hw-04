@@ -170,7 +170,7 @@ img {
 
 .section-two-css {
     padding: 120px 0;
-    width: calc((100% - 72px) / 4);
+   /* width: calc((100% - 72px) / 4);*/
  }
 
 
@@ -192,6 +192,7 @@ img {
     list-style-type: none;
     display: flex;
     gap: 24px;
+    width: calc((100% - 72px) / 4);
 }
 
 .list-second-item {
@@ -201,9 +202,9 @@ img {
     color: #434455;
 }
 
-.list-second-item:nth-child(1) {
+/*.list-second-item:nth-child(1) {
     width: calc((100% - 72px) / 4);
-}
+}*/
 
 /************* SEKCJA NR 2 KONIEC ******************/
 
