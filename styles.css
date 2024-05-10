@@ -182,8 +182,17 @@ img {
     margin-bottom: 8px;
 }
 
-.header-two {
-    visibility: hidden;
+.visually-hidden {  
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    margin: -1px; 
+    border: 0; 
+    padding: 0;   
+    white-space: nowrap; 
+    clip-path: inset(100%); 
+    clip: rect(0 0 0 0); 
+    overflow: hidden;
 }
 
 .section-two-css {
@@ -265,7 +274,7 @@ img {
 
 .name-div {
     width: calc((100% - 72px) / 4);
-    padding: 32px 16px;
+    padding: 32px 0;
 
 }
 
@@ -307,7 +316,7 @@ img {
 
 .listitem-fourth {
     width: calc((100% - 48px) / 3);
-    margin-bottom: 8px;
+
 }
 
 .second-name-div {
@@ -324,6 +333,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
 }
 
 
@@ -332,7 +342,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    margin-bottom: 8px;  
 
 }
 
