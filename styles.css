@@ -178,9 +178,6 @@ img {
 }
 
 
-.visually-hidden {
-   visibility: hidden;
-}
 
 /*.flex-section-two {
     flex-basis: calc((100% - 3 * 24px) / 4);
