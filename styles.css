@@ -5,20 +5,24 @@
 }
 
 
+.container {
+    width: 1158px; 
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+
+img {
+    display: block;
+}
+
+/*************** NAGŁÓWEK ******************/
+
 .header {
     width: 1440px;
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
-}
-
-.header-div {
     display: flex;
-}
-
-.container {
-    width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .logo {
@@ -31,10 +35,7 @@
     color: #4d5ae5;
     display: flex;
     align-items: center;
-}
-
-.studio-logo {
-    color: #2e2f42;
+    display: flex;
 }
 
 .web-logo {
@@ -45,6 +46,9 @@
 
 }
 
+.studio-logo {
+    color: #2e2f42;
+}
 
 .header-list {
     list-style: none;
@@ -71,6 +75,7 @@
 
 .address {
     font-style: normal;
+    display: flex;
 }
 
 .address-class {
@@ -84,6 +89,7 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    display: flex;
 }
 
 .address-list:hover {
@@ -94,11 +100,20 @@
     color: #404bbf; 
 }
 
+/*************** NAGŁÓWEK KONIEC **************/
+
+
+
+
+/************* SEKCJA NR 1 ******************/
+
 .section-one-css {
+    width: 1440px;
+    height: 600px;
+    margin-top: 72px;
     background-color: #2e2f42;
     padding: 188px 0;
 }
-
 
 .head-one-css {
     font-size: 56px;
@@ -107,9 +122,8 @@
     letter-spacing: 0.02em;
     color: white;
     max-width: 496px;
-    
+    display: flex;    
 }
-
 
 .button {
     background-color: #4d5ae5;
@@ -137,7 +151,11 @@
     background-color: #404bbf;
 }
 
+/************* SEKCJA NR 1 KONIEC ******************/
 
+
+
+/************* SEKCJA NR 2 ******************/
 
 .head-section-two {
     font-weight: 500;
@@ -149,22 +167,29 @@
 
 }
 
-.section-two-list {
+.section-two-css {
+    padding: 120px 0;
+    width: calc((100% - 72px) / 4);
+ }
+
+
+.header-two {
+    visibility: hidden;
+}
+
+/* .list-item-section-two {
  
     display: flex;
     gap: 24px;
-    
-}
-
-.section-two-css {
-    padding: 120px 0;
-
-}
-
-.list-item-section-two-first {
     width: calc((100% - 72px) / 4);
-}
+    list-style-type: none;
+    justify-content: space-between;
+    
+} */
 
+.section-two-list {
+    list-style-type: none;
+}
 
 .list-second-item {
     font-size: 16px;
@@ -174,11 +199,9 @@
     width: calc((100% - 72px) / 4);
 }
 
-.section-one-css {
-    width: 1440px;
-    height: 600px;
-    margin-top: 72px;
-}
+/************* SEKCJA NR 2 KONIEC ******************/
+
+/************* SEKCJA NR 3 ******************/
 
 .section-third-css {
     background-color: #f4f4fd;
@@ -233,6 +256,11 @@
     text-align: center; 
 }
 
+/************* SEKCJA NR 3 KONIEC ******************/
+
+
+/************* SEKCJA NR 4 ******************/
+
 .head-fourth {
     font-size: 36px;
     line-height: 1.11;
@@ -286,6 +314,10 @@
     
 }
 
+/************* SEKCJA NR 4 KONIEC ******************/
+
+/*************** STOPKA *****************/
+
 .footer {
     background-color: #2e2f42;
     font-family: "Raleway", sans-serif;
@@ -310,6 +342,4 @@
     color: #f4f4fd;
 }
 
-img {
-    display: block;
-}
+/*************** STOPKA KONIEC *****************/
