@@ -8,8 +8,11 @@ img {
     display: block;
 }
     
+nav {
+    display: flex;
+}
 
-.body {
+body {
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: white;
@@ -26,9 +29,10 @@ img {
 /*************** NAGŁÓWEK ******************/
 
 .header {
-    /* width: 1440px; */
     height: 72px;
     border-bottom: 1px solid #e7e9fc;
+    display: flex;
+    align-items: center;
 
 
 }
@@ -48,7 +52,6 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
-    display: flex;
     align-items: center;
     display: flex;
 }
@@ -57,6 +60,7 @@ img {
     color: #4d5ae5;
     margin-right: 76px;
     display: inline-block;
+    text-decoration: none;
 }
 
 .studio-logo {
@@ -67,7 +71,6 @@ img {
     list-style: none;
     display: flex;
     gap: 40px;
-                             margin-left: 76px;
 }
 
 .link-in-header {
@@ -125,31 +128,22 @@ img {
 /************* SEKCJA NR 1 ******************/
 
 .section-one-css {
-    /* width: 1440px; */
-    /* height: 600px; */
-                             /* margin-top: 72px; */
     background-color: #2e2f42;
     padding: 188px 0;
+
    
 }
 
 .head-one-css {
     font-size: 56px;
     line-height: 1.07;
-
     letter-spacing: 0.02em;
-    color: white;
+    color: #ffffff;
     max-width: 496px;
-    /* height: 120px; */
-    /* margin-top: 188px; */
-    /* margin-left: 472px */
-    /* display: flex;    */
-}
-
-.classssss {
-    align-content: center;
-    margin-left: 472px; 
+    margin: 0 auto;
+    margin-bottom: 48px;
     text-align: center;
+
 }
 
 .button {
@@ -168,7 +162,7 @@ img {
     height: 56px;
     border: none;
     align-items: center;
-    /* margin-left: 636px; */
+    margin: 0 auto;
 
 }
 
@@ -236,9 +230,6 @@ img {
     color: #434455;
 }
 
-/*.list-second-item:nth-child(1) {
-    width: calc((100% - 72px) / 4);
-}*/
 
 /************* SEKCJA NR 2 KONIEC ******************/
 
@@ -364,20 +355,10 @@ img {
 
 /*************** STOPKA *****************/
 
-.flex-footer {
-    display: inline-block;
-}
-
 .footer {
     background-color: #2e2f42;
-    font-family: "Raleway", sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    color: #4d5ae5;
     padding: 100px 0;
-    /* padding-left: 156px; */
+
 }
 
 .p-footer {
@@ -393,11 +374,12 @@ img {
     margin-right: 76px;
     margin-bottom: 16px;
     text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
 }
 
 .studio-logo-footer {
     color: #f4f4fd;
-
 }
 
 
