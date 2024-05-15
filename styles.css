@@ -135,7 +135,7 @@ body {
     background-size: cover;
     background-position: center center;
     max-width: 1440px;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office\ 1.png); 
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png); 
     /* background-image: linear-gradient(to bottom, rgba(46,47,66, 0.7), rgb(46,47,66, 0.7)), url(https://s3-alpha-sig.figma.com/img/7c8d/46d4/7e83b6c8ee4603ea892aa8aaebb3c5fe?Expires=1716768000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=XgPgQhLRIFeQbOxHKRcJ9qcTgGfpFQ3-KEcEkmntca4pGO34zDKeq5YcQTFkWoktB0FUDkJwH5R210JL2z~e0loMZqW9LW~SRQzKSG5gsh9ohnu-ABgyiYcduh6mdbnDI3cJOKL83bdUQaNFnONLQKjmQnO1HKQIV-vwgSFs-dacpgwq8r43tsGWWCcic1EWIQa4OAGKFhz59lw7BZd3pdqHsf-t5zolmbLPR0SlMqug-hLw-z~tisX2B-3uGwWyQJ1IT3wRZkw7Knj7ml-YcQvtQpkxRKRe74qaiqehERs1QUCwmhzaqkSX--Jo2AF6Z2J93A9rcR2-zK7nhZLe~Q__);     */
 }
 
