@@ -444,6 +444,24 @@ body {
     margin-bottom: 8px;
 }
 
+.second-div-in-fourth {
+    /* overflow: hidden; */
+    /* position: absolute;
+    top: 50px; */
+}
+
+.second-paragraph {
+    font-size: 16px; 
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5; 
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
 
 
 /************* SEKCJA NR 4 KONIEC ******************/
