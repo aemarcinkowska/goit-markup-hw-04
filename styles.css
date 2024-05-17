@@ -51,7 +51,7 @@ body {
     color: #4d5ae5;
     align-items: center;
     display: flex;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
 
 }
 
@@ -60,6 +60,7 @@ body {
     margin-right: 76px;
     display: inline-block;
     text-decoration: none;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .studio-logo {
@@ -269,7 +270,6 @@ body {
     border-radius: 4px;
     border: 1px solid #8e8f99;
     margin-bottom: 8px;
-
 }
 
 
