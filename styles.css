@@ -365,27 +365,37 @@ body {
 
 }
 
-.media-item:hover {
+.media-link:hover {
     background-color: #404bbf;
 }
 
-.media-item:focus {
+.media-link:focus {
     background-color: #404bbf;
 }
 
-.media-svg {
-    width: 100%;
-    height: 100%;
+/* /* .media-svg {
+
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     /* background-color: #4d5ae5; */
-    border-radius: 50%;
+    
     /* display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    fill: #f4f4fd; */
-} 
+    fill: #f4f4fd;
+}  */
 
+.media-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
 
 /************* SEKCJA NR 3 KONIEC ******************/
 
@@ -424,9 +434,6 @@ body {
 
 }
 
-/* .section-fourth-list:hover {
-    box-shadow: 0px 1px 1px 0px #2E2F4229;
-} */
 
 .second-name-div {
     padding: 32px 16px;
@@ -506,7 +513,6 @@ body {
 .media-div {
     display: flex; 
     gap: 16px; 
-    /* width: 40px; */
     height: 40px;
 
 }
@@ -525,6 +531,7 @@ body {
 
 .media-item-footer:hover {
     background-color: #31d0aa;
+    cursor: pointer;
 
 }
 
