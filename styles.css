@@ -52,7 +52,7 @@ body {
     color: #4d5ae5;
     align-items: center;
     display: flex;
-    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
+
 
 }
 
@@ -61,7 +61,7 @@ body {
     margin-right: 76px;
     display: inline-block;
     text-decoration: none;
-    /* box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
+
 }
 
 .studio-logo {
@@ -159,13 +159,16 @@ body {
     background-size: cover;
     background-position: center center;
     max-width: 1440px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png); 
+}
+
+
+
+
+.section-one-styles {
     /* background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png);  */
 }
 
-.section-one-styles {
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.png); 
-
-}
 
 .head-one-css {
     font-size: 56px;
@@ -452,33 +455,43 @@ body {
     /* overflow: hidden; */
     /* position: absolute;
     top: 50px; */
-    
+/*     
     left: 0;
     width: 100%;
     height: 100%;
-    transition: ease-in-out;
+    transition: ease-in-out; */
 }
 
-/* .listitem-fourth:hover .overlay {
-    transform: translatey(0);
-  } */
-/* 
+.transform{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.transform-div {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    border-radius: 0px 0px 4px 4px;
+}
+
 .second-paragraph {
-    font-size: 16px; 
-    line-height: 1.5; 
-    letter-spacing: 0.02em;
-    color: #f4f4fd;
-    padding: 40px 32px;
-    background-color: #4d5ae5; 
+    padding: 8px;
+    background-color: #3f51b5;
+    color: #fff;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%;
     width: 100%;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-    transform: translatey(100%);
-    position: absolute;
-    top: 0; } */
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
+}
 
-
-
+.transform:hover .second-paragraph{
+    transform: translateY(); }
 
 /************* SEKCJA NR 4 KONIEC ******************/
 
@@ -581,11 +594,11 @@ body {
 }
 
 .point:hover {
-    background-color: #31d0aa; 
+background-color: #31d0aa; 
 }
 
 .point:focus { 
-    background-color: #31d0aa;
+background-color: #31d0aa;
 }
 
 /*************** STOPKA KONIEC *****************/
