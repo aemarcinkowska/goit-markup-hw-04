@@ -76,6 +76,7 @@ body {
 }
 
 .link-in-header {
+    display:inline-block;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -119,6 +120,7 @@ body {
 .address {
     font-style: normal;
     display: flex;
+    margin-top: 24px;
 }
 
 .address-class {
@@ -159,6 +161,7 @@ body {
     background-size: cover;
     background-position: center center;
     max-width: 1440px;
+    margin: auto;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(./images/people-office.jpg); 
 }
 
